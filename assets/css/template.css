@@ -1,0 +1,359 @@
+body {
+    margin: 0;
+    height: 70vh;
+    background-color: #000; /* Cor de fundo para destacar */
+    margin-bottom: 1000px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 70px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-family: "HelveticaNeueBold";
+    font-size: 70px;
+    width: 100%;
+    height: 30%;
+    background: 
+        repeating-linear-gradient(
+            120deg, /* Inclinação das faixas */
+            #d92d2a, /* Cor vermelha */
+            #d92d2a 60px, /* Tamanho da faixa vermelha */
+            transparent 10px, /* Tamanho da faixa transparente */
+            transparent 140px /* Comprimento total da faixa */
+        );
+    text-align: center;
+}
+
+.photo_titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #d92d2a;
+    padding-top: 1rem;
+}
+
+.album_photo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+section .album_photo img {
+    display: block;
+    width: 80%;
+    max-width: 750px; /* Tamanho padrão da imagem */
+    transition: max-width 0.5s ease; /* Transição para ambos os casos */
+    border: 0.6rem solid #d92d2a;
+}
+
+section .album_photo img:hover {
+    max-width: 850px; /* Novo tamanho ao passar o mouse */
+}
+.sobre_banda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.sobre_banda_titulo {
+    font-size: 1.5rem;
+    color: #d92d2a;
+    line-height: 0;
+}
+.sobre_banda_conteudo {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.faixas_album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.faixas_album_titulo {
+    font-size: 1.5rem;
+    color: #d92d2a;
+    line-height: 0;
+}
+
+.faixas_album_conteudo {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 1.8rem;
+    text-align:left;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.custom-player {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.play-pause {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #d92d2a;
+}
+
+.impacto_cultural {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.impacto_cultural_titulo {
+    font-size: 1.5rem;
+    color: #d92d2a;
+    line-height: 0;
+}
+
+.impacto_cultural_conteudo {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.impacto_cultural_imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.impacto_cultural_imagens img {
+    transition: max-width 0.5s ease;
+}
+.impacto_cultural_imagens img:hover {
+    max-width: 30%;
+}
+
+
+.img1 {
+    max-width: 20%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+
+.img2 {
+    max-width: 20%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+
+.img3 {
+    max-width: 20%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+
+.img4 {
+    max-width: 20%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+.letras_significados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.ls_titulo {
+    font-size: 1.5rem;
+    color: #d92d2a;
+    line-height: 0;
+}
+.ls_conteudo {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.creditos_titulo {
+    font-size: 1.5rem;
+    color: #d92d2a;
+    line-height: 0;
+}
+.creditos_conteudo {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.bono {
+    max-width: 70%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+.edge {
+    max-width: 70%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+.adam {
+    max-width: 70%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+.larry {
+    max-width: 70%;
+    height: auto;
+    border: 0.6rem solid #d92d2a;
+}
+.nome {
+    text-decoration: none;
+    color: #d92d2a;
+}
+@media (min-width: 400px) and (max-width: 800px) {
+    header {
+        font-size: 50px;
+        height: 40%;
+        padding-top: 40px;
+    }
+    .photo_titulo {
+        font-size: 1rem;
+    }
+    .faixas_album_conteudo {
+        width: 98%;
+        align-items: center;
+    }
+    .impacto_cultural_conteudo h2 {
+        font-size: 1.2rem;
+    }
+    .impacto_cultural_imagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 2rem;
+        align-items: center;
+    }
+    .img1 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .img2 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .img3 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .img4 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .impacto_cultural_imagens img:hover {
+        max-width: 70%;
+    }
+    .ls_titulo h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .impacto_cultural_titulo {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .faixas_album_titulo {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .sobre_banda_titulo {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+}
+@media (min-width: 200px) and (max-width: 400px) {
+    header {
+        font-size: 40px;
+        height: 40%;
+        padding-top: 40px;
+    }
+    .photo_titulo {
+        font-size: 1rem;
+    }
+    .faixas_album_conteudo {
+        width: 90%
+    }
+    .sobre_banda_conteudo h2 {
+        font-size: 0.9rem;
+    }
+    .impacto_cultural_conteudo h2 {
+        font-size: 0.9rem;
+    }
+    .impacto_cultural_imagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 2rem;
+        align-items: center;
+    }
+    .img1 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .img2 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .img3 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .img4 {
+        margin-bottom: 2rem;
+        max-width: 60%;
+    }
+    .impacto_cultural_imagens img:hover {
+        max-width: 70%;
+    }
+    .ls_titulo h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .impacto_cultural_titulo {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .faixas_album_titulo {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .sobre_banda_titulo {
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+}
